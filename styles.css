@@ -9,7 +9,19 @@
   }
 
   .container{
-      width:50%;
+      border: 2px solid magenta;
+      width:90%;
+      max-width:620px;
       display: flex;
       margin:0 auto;
+  }
+ img{
+     width:100%;
+ }
+
+  .faq-container{
+     border: 2px solid blue;
+  }
+  .img-container{
+border: 2px solid cyan;
   }
