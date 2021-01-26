@@ -1,4 +1,9 @@
 
+body{
+    font-size: 1.125rem;
+    color:hsl(238, 29%, 16%);
+    margin:0;
+}
  .attribution {
     font-size: 11px;
     text-align: center;
@@ -8,22 +13,27 @@
     color: hsl(228, 45%, 44%);
   }
 
+  img{
+      max-width:100%;
+  }
   .container{
       border: 2px solid magenta;
-      width:100%;
-      max-width:820px;
-      display: flex;
+      width:95%;
+      max-width:980px;
+      display:flex;
       margin:0 auto;
       
   }
- .col{
-     width:80%;
-     border:2px solid red;
- }
-
+ 
   .columns{
+   display: flex;
      border: 2px solid blue;
      font-size: 1.2rem;
      
   }
+  .col{
+    width:100%;
+    border:2px solid red;
+}
+
   
