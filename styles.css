@@ -86,21 +86,21 @@ summary {
 
 .col-1 {
   position: absolute;
-  top: -23%;
+  top: -18%;
   left: -25%;
  
 }
 
 .col-2 {
   position: absolute;
-  top: 25%;
-  right:60%;
-  
+  top: 32%;
+  right:62%;
+
 }
 
 .col-3 {
-  position: relative;
-  top: 20%;
-
-  z-index: 2;
+  position: absolute;
+  top: 50%;
+  right:81%;
+  z-index: 1;
 }
