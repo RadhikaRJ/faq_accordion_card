@@ -27,7 +27,7 @@ img {
 
 .container {
  background-color: white;
-  border: 2px solid magenta;
+  /* border: 2px solid magenta; */
   width: 75%;
   max-width: 1440px;
   min-width: 375px;
@@ -43,7 +43,7 @@ img {
 
 .columns {
   width: 100%;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   font-size: 1em;
   padding: 5.5em;
 
