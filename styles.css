@@ -1,8 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 body{
-    font-size: 1.125rem;
+    font-size:12px;
     color:hsl(238, 29%, 16%);
     margin:0;
+    font-family: 'Kumbh Sans', sans-serif;
 }
  .attribution {
     font-size: 11px;
@@ -18,22 +19,50 @@ body{
   }
   .container{
       border: 2px solid magenta;
-      width:95%;
-      max-width:980px;
+      width:100%;
+      max-width:1020px;
       display:flex;
       margin:0 auto;
+      justify-content: space-between;
       
   }
  
   .columns{
-   display: flex;
+    width:100%;
      border: 2px solid blue;
-     font-size: 1.2rem;
+     font-size:1rem;
+    
+     
      
   }
   .col{
     width:100%;
     border:2px solid red;
 }
+h1{
+  padding:0.5em;
+}
+ 
+.col-bg{
+  padding:2.5em;
+}
+  details{
+    padding:0.5em;
+  }
+summary{
+  padding:0.5em;
+}
 
-  
+.col-imgs{
+  display:flex;
+  align-items: flex-start;
+}
+.col-1{
+
+}
+.col-2{
+
+}
+.col-3{
+
+}
