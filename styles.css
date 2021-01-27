@@ -37,6 +37,7 @@ img {
   padding: 1em;
   margin-top:7%;
   margin-bottom:10%;
+  border-radius: 2em;
 
 }
 
@@ -44,7 +45,7 @@ img {
   width: 100%;
   border: 2px solid blue;
   font-size: 1em;
-  padding: 5.5em;
+  padding: 6.5em;
 
 
 }
