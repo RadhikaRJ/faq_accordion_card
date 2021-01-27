@@ -44,7 +44,7 @@ img {
   width: 100%;
   border: 2px solid blue;
   font-size: 1em;
-  padding: 1.5em;
+  padding: 5.5em;
 
 
 }
@@ -78,13 +78,13 @@ summary {
 .col-imgs {
   display: flex;
   align-items: flex-start;
-  position: relative;
+  
 }
 
 .col-1 {
   position: absolute;
-  top: -40%;
-  left: -40%;
+  top: -23%;
+  left: -25%;
  
 }
 
