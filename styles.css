@@ -1,20 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
 
-:root{
-  background-image: linear-gradient( to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+:root {
+  background-image: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
 }
+
 body {
   font-size: 12px;
   color: hsl(238, 29%, 16%);
   margin: 0;
   font-family: 'Kumbh Sans', sans-serif;
-  
+
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
-  
+
 }
 
 .attribution a {
@@ -26,7 +27,7 @@ img {
 }
 
 .container {
- background-color: white;
+  background-color: white;
   /* border: 2px solid magenta; */
   width: 75%;
   max-width: 1440px;
@@ -35,8 +36,8 @@ img {
   margin: 0 auto;
   justify-content: space-between;
   padding: 1em;
-  margin-top:7%;
-  margin-bottom:10%;
+  margin-top: 7%;
+  margin-bottom: 10%;
   border-radius: 2em;
 
 }
@@ -49,80 +50,87 @@ img {
 
 
 }
-.columns span{
-  padding:1em;
-}
+
+
+
 .col {
-  display:flex;
-  width: 100%;
+  display: flex;   
   /* border: 2px solid red; */
+  padding:0.5em;
   
 }
 
+details {
+  width: 100%;
+  /* border: 2px solid brown; */
+}
+
+
+
 h1 {
-  
+  padding: 1rem;
   color: hsl(237, 12%, 33%);
   font-weight: bold;
 }
 
-hr {
-  color: hsl(240, 5%, 91%);
-}
+
 
 .col-bg {
-  display:flex;
+  display: flex;
   flex-direction: column;
   padding: 1em;
-  font-size:1.3em;
-  border:2px solid orange;
-  justify-content: space-between;
-}
-
-details {
+  font-size: 1.3em;
+  /* border: 2px solid orange; */
+  /* justify-content: space-between; */
  
-
 }
+
+hr {
+  color: hsl(240, 5%, 91%);
+  
+ 
+}
+
 
 summary {
-  
- border: 2px solid blue;
+display: flex;
+  /* border: 2px solid blue; */
   padding: 1em;
- 
-  cursor:pointer;
+  justify-content: space-between;
+  cursor: pointer;
 }
+
 summary::-webkit-details-marker {
   display: none;
 }
 
-.icon-arrow{ 
-  border:2px solid green;
-  
-}
+
+
 .col-imgs {
   display: flex;
   align-items: flex-start;
-  
+
 }
 
 .col-1 {
   position: absolute;
   top: -18%;
   left: -25%;
- 
+
 }
 
 .col-2 {
   position: absolute;
   top: 32%;
-  right:62%;
-  height:auto;
+  right: 62%;
+  height: auto;
 
 }
 
 .col-3 {
   position: absolute;
   top: 50%;
-  right:82%;
-  
- height:auto;
+  right: 82%;
+
+  height: auto;
 }
