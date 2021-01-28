@@ -49,14 +49,18 @@ img {
 
 
 }
-
+.columns span{
+  padding:1em;
+}
 .col {
+  display:flex;
   width: 100%;
   /* border: 2px solid red; */
+  
 }
 
 h1 {
-  padding: 0.5rem;
+  
   color: hsl(237, 12%, 33%);
   font-weight: bold;
 }
@@ -66,18 +70,34 @@ hr {
 }
 
 .col-bg {
-  padding: 0.5em;
+  display:flex;
+  flex-direction: column;
+  padding: 1em;
   font-size:1.3em;
+  border:2px solid orange;
+  justify-content: space-between;
 }
 
 details {
-  padding: 0.5em;
+ 
+
 }
 
 summary {
-  padding: 0.5em;
+  
+ border: 2px solid blue;
+  padding: 1em;
+ 
+  cursor:pointer;
+}
+summary::-webkit-details-marker {
+  display: none;
 }
 
+.icon-arrow{ 
+  border:2px solid green;
+  
+}
 .col-imgs {
   display: flex;
   align-items: flex-start;
@@ -95,12 +115,14 @@ summary {
   position: absolute;
   top: 32%;
   right:62%;
+  height:auto;
 
 }
 
 .col-3 {
   position: absolute;
   top: 50%;
-  right:81%;
-  z-index: 1;
+  right:82%;
+  
+ height:auto;
 }
