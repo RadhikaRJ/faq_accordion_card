@@ -185,5 +185,6 @@ hr {
     background-position: top center;
     background-repeat: no-repeat;  
     background-clip:border-box;
+    background-size:auto;
   }
 }
