@@ -187,7 +187,7 @@ hr {
     background-clip:border-box;
     background-size:auto;
   }
-  .container >.columns >img{
+  #box{
     display:none;
   }
 }
