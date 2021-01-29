@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
-
-:root {
-  background-image: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+/* removes the selected element highlight visible on the UI on click */
+*:focus {
+  outline: none;
 }
 
 body {
+  background-image: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
   font-size: 12px;
-  color: hsl(238, 29%, 16%);
-  margin: 0;
+  color: hsl(238, 29%, 16%);  
   font-family: 'Kumbh Sans', sans-serif;
 
 }
@@ -15,57 +15,67 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
+  color:white;
 
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: white;
 }
 
-img {
-  max-width: 100%;
-}
+
 
 .container {
   background-color: white;
-  /* border: 2px solid magenta; */
+  border: 2px solid magenta;
   width: 75%;
   max-width: 1440px;
-  min-width: 375px;
+  
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
-  padding: 1em;
-  margin-top: 7%;
-  margin-bottom: 10%;
+  padding: 0.5em;
+  margin-top: 5%;
+  margin-bottom: 3%;
   border-radius: 2em;
+ 
 
 }
-
+img {
+  max-width: 100%;
+}
 .columns {
   width: 100%;
   /* border: 2px solid blue; */
   font-size: 1em;
-  padding: 5.5em;
-
+  padding: 4.5em;
 
 }
 
 .col-bg {
   display: flex;
-  flex-direction: column;
-  padding: 1em;
+  flex-direction: column;  
   font-size: 1.3em;
   /* border: 2px solid orange; */
- 
+  
  
 }
 
 .col {
   display: flex;   
   /* border: 2px solid red; */
-  padding:0.5em;
+  padding:0.2em;
+ 
   
+}
+summary::before{
+  font-weight: normal;
+}
+summary:focus{
+  font-weight: bold;
+}
+summary::after{
+  font-weight: normal;
 }
 
 .icon-arrow{
@@ -87,16 +97,21 @@ h1 {
 details {
   width: 100%;
   /* border: 2px solid brown; */
+  
+ 
 }
-
+.detail-content{
+  margin-left:0.5rem;
+}
 
 
 summary {
   display: flex;
     /* border: 2px solid blue; */
-    padding: 1em;
+    padding: 0.5rem;
     justify-content: space-between;
     cursor: pointer;
+    
   }
   
   summary::-webkit-details-marker {
@@ -108,21 +123,27 @@ summary {
 hr {
   color:hsl(240, 5%, 91%);
   margin-left:0;
-  margin-right:0;
- 
+  margin-right:0; 
 }
 
 
 .col-imgs {
   display: flex;
-  align-items: flex-start;
-
+  
+  /* border:2px solid green; */
+  background-image:url("images/illustration-woman-online-desktop.svg"), url("images/bg-pattern-desktop.svg") ;
+  background-position:-78%, 135% 70%;
+ 
+  background-repeat: no-repeat;
+  
+ background-clip:border-box;
 }
 
-.col-1 {
+/* .col-1 {
   position: absolute;
   top: -18%;
   left: -25%;
+  border: 2px solid red;
 
 }
 
@@ -131,13 +152,20 @@ hr {
   top: 32%;
   right: 62%;
   height: auto;
-
+  border: 2px solid black;
 }
 
-.col-3 {
-  position: absolute;
-  top: 50%;
-  right: 82%;
+ */
 
-  height: auto;
+ .col-3 {
+  position: relative;
+  top: 13%;
+  right: 63%;
+  /* border: 2px solid red; */
+  margin:0 auto;
+  width:100%;
+  /* height:auto;
+  */
+  
+  padding:8.5rem;
 }
