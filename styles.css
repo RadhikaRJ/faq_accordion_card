@@ -190,4 +190,8 @@ hr {
   #box{
     display:none;
   }
+  .bg-display{
+    width: 100%;
+    height:150px;
+  }
 }
