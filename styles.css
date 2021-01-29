@@ -174,4 +174,9 @@ hr {
     display:flex;
     flex-direction:column;
   }
+  .columns{
+    padding:0em;
+    margin:0;
+    width:100%;
+  }
 }
