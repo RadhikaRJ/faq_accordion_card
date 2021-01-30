@@ -186,8 +186,10 @@ hr {
     background-repeat: no-repeat;  
     background-clip:border-box;
     background-size:auto;
+    border: 2px solid green;
   }
   .col-3 {
+    border: 2px solid red;
     position: relative;
     top: 0;
     right: 0;
