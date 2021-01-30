@@ -193,7 +193,7 @@ hr {
   .col-3 {
     border: 2px solid red;
     position: relative;
-    top: 0;
+    top: -100%;
     right: 0;
     /* border: 2px solid red; */
     margin:0;
