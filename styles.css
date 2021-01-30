@@ -187,7 +187,8 @@ hr {
     background-clip:border-box;
     background-size:auto;
     border: 2px solid green;
-   
+    height: 200px;
+    width:100px;
     margin:0;
   }
   .col-3 {
